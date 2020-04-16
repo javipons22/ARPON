@@ -1,0 +1,800 @@
+
+
+
+/* =================================================
+   =================== MENU CONTACTO ===============
+   ================================================= */
+
+.contacto p{
+	padding:0;
+	margin:0;
+}
+
+
+.contacto{
+	display:flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	vertical-align: middle;
+	padding:40px 0;
+
+}
+
+
+
+.contacto i{
+	text-align:center;
+	margin-right:10px;
+	float:left;
+}
+
+.cont{
+	display:flex;
+	align-items:center;
+	padding:0 15px;
+	border-right:1px solid #ccc;
+}
+
+.cont:last-child{
+	border-right:none;
+}
+
+
+
+/* ACOMODA LOS ICONOS PARA QUE QUEDEN ALINEADOS *******/
+
+.celular {
+	display:flex;
+	padding:0 10px;
+	text-align:center;
+	color:#f7c51e;
+	vertical-align: middle;
+	
+}
+
+.telefono{
+
+	padding:0 3px;
+	color:#f7c51e;
+	}
+
+.casa{
+	color:#f7c51e;
+}
+/*///////////////////////////////////////////////*/
+
+.uno p:first-child{
+	 font-family:"Montserrat", Helvetica, Arial, sans-serif;
+	 font-weight:bold;
+	 font-size:0.9em;
+	 vertical-align: baseline;
+}
+
+.uno p:last-child{
+	 font-family:"Source Sans Pro", Helvetica, Arial, sans-serif;
+	 font-weight:600;
+	 font-size:13px;
+}
+
+
+/* =================================================
+   =================== LOGO Y BTN ===============
+   ================================================= */
+.menu-btn {
+	padding:40px 0;
+}
+
+/* =================================================
+   =================== HEADER ===============
+   ================================================= */
+
+.header{
+	
+	width:100%;
+
+}
+
+
+/* =================================================
+   =================== MEDIA QUERY ===============
+   ================================================= */
+
+@media (max-width: 1200px){
+
+		/* =================================================
+   =================== NAV (sm) ===============
+   ================================================= */
+.menu-nav {
+	display:none;
+}
+
+nav {
+	font-family:"Montserrat", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	background-color:#f7c51e;
+	width:100%;
+	font-weight:bold;
+	background:#f7c51e;
+	margin:0 auto;
+	padding:15px 0px;
+	z-index:2;
+	border:none;
+	text-align: center;
+	}
+
+	nav a {
+		text-decoration: none;
+		color:black;
+	}
+
+	nav li {
+		display:block;
+		padding-top:15px;
+		padding-left:5px;
+	}
+
+	nav a:last-child li{
+		padding-bottom:15px;
+	}
+
+}
+
+
+@media (min-width:1200px) {
+	header {
+		height:150px;
+		position:relative;
+	}
+
+	.menu-btn {
+		display:none;
+	}
+	/* =================================================
+   =================== NAV (lg) ===============
+   ================================================= */
+
+.fondo-nav {
+	height:23px;
+}
+
+nav {
+	font-family:"Montserrat", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	background:linear-gradient(to bottom, #ffffff 0%, #eeeeee 100%);
+	width:1140px;
+	margin:-15px auto;
+	padding:9px 0px;
+	z-index:2;
+	border:0.2px solid lightgrey;
+	position:absolute;
+	top:135px;
+	left:0;
+	right:0;
+
+}
+
+nav a {
+	text-decoration: none;
+	color:#999;
+	font-size: 15px;
+	padding:7px;
+
+}
+
+nav a:hover {
+	border-top:4px solid #f7c51e;
+	color:#666;
+}
+
+
+nav ul{
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+nav li {
+	display:inline-block;
+	text-align:center;
+	padding:0 25px;
+
+}
+}
+
+@media (max-width: 768px){
+
+	#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 150px;
+  background: #ccc;
+  text-align: center;
+}
+
+}
+
+
+/* =================================================
+   =================== BANNER ===============
+   ================================================= */
+
+
+.banner img {
+	width:100%;
+}
+/* =================================================
+   =================== FOOTER ===============
+   ================================================= */
+.footer {
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height:350px;
+  /* Set the fixed height of the footer here */
+  background: #f2f2f2;
+
+}
+.titulo-footer {
+	position:relative;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #333333;
+    letter-spacing: -0.5px;
+    font-size:12px;
+    border-bottom:1px solid #999;
+    margin:0;
+    padding:5px;
+}
+.titulo-footer:after{
+    position: absolute;
+	content: "";
+	background-color: #f7c51e;
+	height: 4px;
+	width: 20px;
+	bottom: -1px;
+	left: 0;
+}
+.header{
+	
+	width:100%;
+	height:100;
+
+}
+
+.info-footer {
+	margin:25px 0;
+}
+
+.info-footer p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14px;
+	color:#666;
+}
+
+.info-footer img {
+	height:70px;
+	margin:30px 0;
+}
+
+/* =================================================
+   =================== ABAJO DE BANNER ===============
+   ================================================= */
+
+.abajo-de-banner{
+	height:100%;
+	background-color:#eee;
+}
+
+.abajo-de-banner p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:1.2em;
+	font-weight:600;
+	color:#999;
+	padding:25px;
+	margin-bottom:0;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.boton-abajo-banner {
+	text-align:right;
+	margin:25px 0;
+}
+
+.boton-abajo-banner span {
+	background-color:#f7c51e;
+	font-family:"Montserrat", sans-serif;
+	font-weight:700;
+	padding:20px;
+}
+
+.boton-abajo-banner a {
+	color:#000;
+	text-decoration: none;
+}
+/* =================================================
+   =================== PROYECTOS ===============
+   ================================================= */
+
+.proyectos-wrapper {
+	margin-top:50px;
+}
+
+/* =================================================
+   =================== QUIENES SOMOS ===============
+   ================================================= */
+.quienes-somos {
+	margin-top:30px;
+}
+
+.quienes-somos h1{
+	position:relative;
+	font-family: "Montserrat", sans-serif;
+	font-size:2em;
+	padding:10px 0;
+	border-bottom:1px solid rgba(0, 0, 0, 0.08);
+	letter-spacing: -0.5px;
+	font-weight:800;
+}
+
+.quienes-somos h1:after{
+	position: absolute;
+	content: "";
+	background-color: #f7c51e;
+	height: 4px;
+	width: 30px;
+	bottom: -1px;
+	left: 0;
+}
+
+.quienes-somos-bold {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14px;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#000;
+}
+
+.quienes-somos p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14px;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#999;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.quienes-somos h5 {
+	font-size:14px;
+	font-weight:bold;
+}
+
+.feat {
+	margin-top: 30px;
+	line-height: 100%;
+}
+
+h5 i {
+	color:#f7c51e;
+}
+
+.titulo-quienes-somos {
+	padding:0;
+}
+/* =================================================
+   =================== DIVISOR ===============
+   ================================================= */
+
+.divisor {
+	margin-top:25px;
+	width:100%;
+	height:70px;
+	background: #f7c51e;
+}
+
+.divisor-footer {
+	background: #f7c51e;
+	padding:20px;
+	font-size:14px;
+}
+
+.divisor-footer p{
+	margin-bottom: 0;
+	color:#000;
+}
+
+/* =================================================
+   =================== DIVISOR ===============
+   ================================================= */
+
+.clientes h1{
+	margin-top:25px;
+	position:relative;
+	font-family: "Montserrat", sans-serif;
+	font-size:2em;
+	padding:10px 0;
+	border-bottom:1px solid rgba(0, 0, 0, 0.08);
+	letter-spacing: -0.5px;
+	font-weight:800;
+}
+
+.clientes h1:after{
+	position: absolute;
+	content: "";
+	background-color: #f7c51e;
+	height: 4px;
+	width: 30px;
+	bottom: -1px;
+	left: 0;
+}
+
+.logos {
+	text-align: center;
+}
+
+.cliente-imagen{
+	margin:15px;
+}
+
+.cliente-imagen img {
+	border:1px solid #eee;
+}
+
+.proyectos {
+	display:none;
+}
+
+#slider {
+	display:none;
+}
+
+/* =================================================
+   =================== SOBRE NOSOTROS ===============
+   ================================================= */
+
+.sobre-nosotros-texto {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size:14px;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* =================================================
+   =================== PRESUPUESTOS ===============
+   ================================================= */
+
+.presupuestos h1{
+	position:relative;
+	font-family: "Montserrat", sans-serif;
+	font-size:2em;
+	padding:10px 0;
+	border-bottom:1px solid rgba(0, 0, 0, 0.08);
+	letter-spacing: -0.5px;
+	font-weight:800;
+}
+
+.presupuestos h1:after{
+	position: absolute;
+	content: "";
+	background-color: #f7c51e;
+	height: 4px;
+	width: 30px;
+	bottom: -1px;
+	left: 0;
+}
+
+.presupuestos p{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size:14px;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#999;
+}
+.presupuestos span{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size:14px;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#999;
+    font-weight: 600;
+}
+
+.presupuestos i{
+	color:#999;
+	font-size:17px;
+	padding-right:4px;
+}
+
+
+/* =================================================
+   =================== CONTACT FORM ===============
+   ================================================= */
+
+.formulario h1{
+	position:relative;
+	font-family: "Montserrat", sans-serif;
+	font-size:2em;
+	padding:10px 0;
+	border-bottom:1px solid rgba(0, 0, 0, 0.08);
+	letter-spacing: -0.5px;
+	font-weight:800;
+}
+
+.formulario h1:after{
+	position: absolute;
+	content: "";
+	background-color: #f7c51e;
+	height: 4px;
+	width: 30px;
+	bottom: -1px;
+	left: 0;
+}
+
+
+input[type=submit]{
+	background-color:#f7c51e;
+	width:100%;
+	outline:none;
+	border:none;
+	font-family: "Montserrat", sans-serif;
+	font-weight:800;
+	padding:15px 0;
+	cursor:pointer;
+}
+
+input[type=text]:focus , input[type=email]:focus, textarea:focus{
+	border:2px solid #f7c51e;
+	outline: none;
+}
+
+input[type=text], input[type=email]{
+	width:100%;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size:14px;
+	padding: 15px;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin:3px;
+    border:1px solid #bbb;
+	border-radius:5px;
+}
+
+textarea {
+	width:100%;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size:14px;
+	padding: 15px;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin:3px;
+    border:1px solid #bbb;
+	border-radius:5px;
+}
+
+.btn-menu{
+	background-color:#f7c51e;
+	outline:none;
+	border:none;
+	font-family: "Montserrat", sans-serif;
+	font-weight:800;
+	padding:10px;
+	cursor:pointer;
+}
+.btn-menu:active {
+	outline: none;
+}
+
+.btn-menu i {
+	padding:0 3px;
+}
+
+
+#overlay-inicio{
+	text-align:center;
+  height:100%;
+  width:100%;
+  background:rgba(0, 0, 0, 0.99);
+  position:fixed;
+  left:0;
+  top:0;
+  color:white;
+  z-index:10000;
+ }
+
+ #overlay-inicio div {
+ 	text-align:center;
+ 	position: absolute;
+    top:35vh;
+    left:0;
+    right:0;
+ 	width:auto;
+ 	height:auto;
+
+ }
+
+ #overlay-inicio svg {
+ 	width:27%;
+ 	height:27%;
+ }
+
+
+ /* EFECTOS LOGO INICIO */
+
+
+
+.arco {
+	fill:none;
+	stroke: #FFF;
+	stroke-width: 1px;
+	stroke-dasharray: 930;
+	stroke-dashoffset: 1000;
+	animation: dash 10s linear forwards;
+	animation-iteration-count: 1;
+}
+
+@keyframes dash {
+	70%{
+  	stroke:none;
+    stroke-dashoffset: -900;
+    
+  }
+  70%{
+  	fill:#E8BC38;
+  }
+}
+
+@keyframes dash2 {
+	70% {
+		fill:#475375;
+		stroke:none;
+	}
+
+	100%{
+  	stroke:none;
+    stroke-dashoffset: 0;
+    
+  }
+}
+
+
+
+.letra-s {
+	fill:none;
+	stroke: #FFF;
+	stroke-width: 1px;
+	stroke-dasharray: 930;
+	stroke-dashoffset: 1000;
+	animation: dash2 10s linear forwards;
+	-webkit-animation: dash2 10s linear forwards;
+	-o-animation: dash2 10s linear forwards;
+	-moz-animation: dash2 10s linear forwards;
+	}
+
+.letra-u {
+	fill:none;
+	stroke: #FFF;
+	stroke-width: 1px;
+	stroke-dasharray: 930;
+	stroke-dashoffset: 1000;
+	animation: dash2 10s linear forwards;
+	-webkit-animation: dash2 10s linear forwards;
+	-o-animation: dash2 10s linear forwards;
+	-moz-animation: dash2 10s linear forwards;
+	}
+
+.letra-t {
+	fill:none;
+	stroke: #FFF;
+	stroke-width: 1px;
+	stroke-dasharray: 930;
+	stroke-dashoffset: 1000;
+	animation: dash2 10s linear forwards;
+	-webkit-animation: dash2 10s linear forwards;
+	-o-animation: dash2 10s linear forwards;
+	-moz-animation: dash2 10s linear forwards;
+	}
+
+.letra-a {
+	fill:none;
+	stroke: #FFF;
+	stroke-width: 1px;
+	stroke-dasharray: 930;
+	stroke-dashoffset: 1000;
+	animation: dash2 10s linear forwards;
+	-webkit-animation: dash2 10s linear forwards;
+	-o-animation: dash2 10s linear forwards;
+	-moz-animation: dash2 10s linear forwards;
+	}
+
+.letra-r-grande {
+	fill:none;
+	stroke: #FFF;
+	stroke-width: 1px;
+	stroke-dasharray: 930;
+	stroke-dashoffset: 1000;
+	animation: dash2 10s linear forwards;
+	-webkit-animation: dash2 10s linear forwards;
+	-o-animation: dash2 10s linear forwards;
+	-moz-animation: dash2 10s linear forwards;
+	}
+
+.letra-r {
+	fill:none;
+	stroke: #FFF;
+	stroke-width: 1px;
+	stroke-dasharray: 930;
+	stroke-dashoffset: 1000;
+	animation: dash2 10s linear forwards;
+	-webkit-animation: dash2 10s linear forwards;
+	-o-animation: dash2 10s linear forwards;
+	-moz-animation: dash2 10s linear forwards;
+	}
+
+.letra-p {
+	fill:none;
+	stroke: #FFF;
+	stroke-width: 1px;
+	stroke-dasharray: 930;
+	stroke-dashoffset: 1000;
+	animation: dash2 10s linear forwards;
+	-webkit-animation: dash2 10s linear forwards;
+	-o-animation: dash2 10s linear forwards;
+	-moz-animation: dash2 10s linear forwards;
+	}
+
+.letra-o {
+	fill:none;
+	stroke: #FFF;
+	stroke-width: 1px;
+	stroke-dasharray: 930;
+	stroke-dashoffset: 1000;
+	animation: dash2 10s linear forwards;
+	-webkit-animation: dash2 10s linear forwards;
+	-o-animation: dash2 10s linear forwards;
+	-moz-animation: dash2 10s linear forwards;
+	}
+
+.letra-n {
+	fill:none;
+	stroke: #FFF;
+	stroke-width: 1px;
+	stroke-dasharray: 930;
+	stroke-dashoffset: 1000;
+	animation: dash2 10s linear forwards;
+	-webkit-animation: dash2 10s linear forwards;
+	-o-animation: dash2 10s linear forwards;
+	-moz-animation: dash2 10s linear forwards;
+	}
+
+.letra-c {
+	fill:none;
+	stroke: #FFF;
+	stroke-width: 1px;
+	stroke-dasharray: 930;
+	stroke-dashoffset: 1000;
+	animation: dash2 10s linear forwards;
+	-webkit-animation: dash2 10s linear forwards;
+	-o-animation: dash2 10s linear forwards;
+	-moz-animation: dash2 10s linear forwards;
+	}
+
+.letra {
+	fill:none;
+	stroke: #FFF;
+	stroke-width: 1px;
+	stroke-dasharray: 930;
+	stroke-dashoffset: 1000;
+	animation: dash2 10s linear forwards;
+	-webkit-animation: dash2 10s linear forwards;
+	-o-animation: dash2 10s linear forwards;
+	-moz-animation: dash2 10s linear forwards;
+	}

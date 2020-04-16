@@ -1,0 +1,516 @@
+f/*
+Theme Name: Arpon Estructuras
+Theme URI: http://javierpons.ml;
+Author: Javier Pons
+Author URI: http://wordpress.org/
+Description: Un tema creado para la empresa Arpon Estructuras
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+
+/* HEADER */
+
+
+
+.head {
+	height:150px;
+	padding:1em 0;
+	display:flex;
+	flex-direction: row;
+	width:100%;
+	max-width:1140px;
+	height: 112px;
+	margin:0 auto;
+	align-items: center;
+	justify-content: space-between;
+
+
+}
+
+
+/* BOTON */
+
+.button{
+	display:none;
+	background-color:#f7c51e;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+	padding:10px 12px;
+	font-size:14px;
+	text-decoration:none;
+	color:black;
+	border:none;
+	margin-left:15px;
+	outline:none;
+}
+
+.button:hover{
+	background-color:#e7a50e;
+}
+
+
+
+/* MENU CONTACTO ***************************/
+
+.contacto{
+	display:flex;
+
+}
+
+.contacto i{
+	text-align:center;
+	margin-right:10px;
+	float:left;
+}
+
+.cont{
+	display:flex;
+	align-items:center;
+	padding:0 15px;
+	border-right:1px solid #000;
+}
+
+.cont:last-child{
+	border-right:none;
+}
+
+
+/* ACOMODA LOS ICONOS PARA QUE QUEDEN ALINEADOS *******/
+
+.celular {
+	display:flex;
+	padding:0 10px;
+	text-align:center;
+	color:#f7c51e;
+	vertical-align: middle;
+	
+}
+
+.telefono{
+
+	padding:0 3px;
+	color:#f7c51e;
+	}
+
+.casa{
+	color:#f7c51e;
+}
+/*///////////////////////////////////////////////*/
+
+.uno p:first-child{
+	 font-family:"Montserrat", Helvetica, Arial, sans-serif;
+	 font-weight:bold;
+	 font-size:0.9em;
+	 vertical-align: baseline;
+}
+
+.uno p:last-child{
+	 font-family:"Source Sans Pro", Helvetica, Arial, sans-serif;
+	 font-weight:normal;
+	 font-size:13px;
+}
+
+
+/* NAV ****************/
+.fondo-nav {
+	height:23px;
+}
+
+nav {
+	font-family:"Montserrat", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	background:linear-gradient(to bottom, #ffffff 0%, #eeeeee 100%);
+	width:1140px;
+	margin:0 auto;
+	padding:15px 0px;
+	z-index:2;
+	border:0.2px solid lightgrey;
+}
+
+nav a {
+	text-decoration: none;
+	color:#666;
+	font-size: 15px;
+	padding:10px;
+}
+
+
+
+nav ul{
+	text-align:center;
+}
+
+nav li {
+	display:inline-block;
+	text-align:center;
+	padding:0 25px;
+}
+
+.banner {
+	position:relative;
+	z-index: -1;
+}
+
+
+.proyectos {
+	width:100%;
+	background-color: #555;
+	display:block;
+}
+
+.barra{
+	height:50px;
+	width:100%;
+	background-color:rgb(69,69,69);
+}
+
+.titulo{
+	margin:0 auto;
+	border-bottom: 50px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 10px;
+	width: 250px;
+
+	
+}
+
+.titulo p{
+	font-family: 'Montserrat';
+	text-align:center;
+	color:white;
+	vertical-align: middle;
+	border-bottom:3px solid #f7c51e;
+	padding-top:20px;
+	padding-bottom:5px;
+	font-weight:600;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 906px){
+
+	.menu-nav {
+		text-align: center;
+		margin:0;
+		width:100vw;
+	}
+
+	nav {
+	font-family:"Montserrat", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	background-color:#f7c51e;
+	display: block;
+	font-weight:bold;
+	background:#f7c51e;
+	margin:0 auto;
+	padding:15px 0px;
+	border:none;
+	width:100%;
+	margin-bottom:50px;
+	position:static;
+	width:100vw;
+	}
+
+	nav ul {
+		margin:0;
+		padding:0;
+	}
+
+	nav a {
+		text-decoration: none;
+		color:black;
+	}
+
+	nav li {
+		display:block;
+		padding-top:15px;
+		padding-left:5px;
+	}
+
+	nav a:last-child li{
+		padding-bottom:15px;
+	}
+
+
+	.head, .contacto, .cont{
+		flex-wrap:wrap;
+		border-right:none;
+	}
+	.head{
+		height: 100%;
+	}
+
+	.button{
+		display:block;
+	}
+
+}
+
+@media screen and (max-width: 1140px){
+	
+	nav {
+	font-family:"Montserrat", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	background-color:#f7c51e;
+
+	font-weight:bold;
+	background:#f7c51e;
+	margin:0 auto;
+	padding:15px 0px;
+	z-index:2;
+	border:none;
+	}
+
+	nav a {
+		text-decoration: none;
+		color:black;
+	}
+
+	nav li {
+		display:block;
+		padding-top:15px;
+		padding-left:5px;
+	}
+
+	nav a:last-child li{
+		padding-bottom:15px;
+	}
+
+
+	.button{
+		display:inline-block;
+	}
+
+}
+
+.foto {
+	width:150px;
+	height:150px;
+	overflow:hidden;
+
+}
+
+
+.obras li{
+	display:inline-block;
+	padding:10px 20px;
+
+}
+
+.obras{
+	width:1000px;
+	margin: 0 auto;
+	text-align:center;
+}
+
+.obras img{
+	width:150px;
+	height:150px;
+}
+
+/*PAGINA DETALLES*/
+
+.wrapper{
+	margin:0 auto;
+	margin-top:50px;
+}
+.wrapper h1{
+	position:relative;
+	font-family: "Montserrat", sans-serif;
+	font-size:2em;
+	padding:17px 0;
+	border-bottom:1px solid rgba(0, 0, 0, 0.08);
+}
+
+.wrapper h1:after{
+	position: absolute;
+	content: "";
+	background-color: #f7c51e;
+	height: 4px;
+	width: 30px;
+	bottom: -1px;
+	left: 0;
+}
+
+
+
+.detalles {
+	width:100%;
+	background-color:#eee;
+	margin-top:50px;
+	z-index: -1;
+}
+
+.lista-detalles {
+	padding:16px 22px;
+	list-style-type:none;
+}
+
+.lista-detalles li{
+	font-family:'Source Sans Pro', sans-serif;
+	font-size:15px;
+	padding:3px 0;
+	list-style-type:none;
+}
+
+.lista-detalles .fa{
+	color:#666;
+	padding-right:6px;
+	z-index: 2;
+}
+
+.lista-detalles strong{
+	font-weight:600;
+}
+
+.lista-detalles .fa-map-marker{
+	padding:0 3px;
+	padding-right:8px;
+}
+
+.lista-detalles .fa-lightbulb-o{
+	padding:0 3px;
+	padding-right:8px;
+}
+
+.lista-detalles sup{
+	font-size:xx-small; 
+	vertical-align:super;
+}
+
+.lista-detalles .fa-info{
+	padding:0 4px;
+	padding-right:10px;
+}
+
+
+.conten {
+    width: 250px;
+    height: 215px;
+}
+
+.conten2 {
+	width:100%;
+	height:300px;
+}
+
+
+.titulodetalle {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.text-content{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.flex-detalles {
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+
+
+
+
+/*BOTON PROYECTOS */
+.primary {
+	margin-top:45px;
+	margin-bottom:45px;
+}
+
+.proyecto-anterior {
+	text-align:right;
+}
+
+.siguiente-proyecto {
+	text-align:left;
+}
+.proyecto-anterior a , .siguiente-proyecto a {
+	text-align:right;
+	color:black;
+	background-color:#f7c51e;
+	font-family: "Montserrat";
+	font-weight: bold;
+	text-decoration:none;
+	font-size: 15px;
+	padding: 15px;
+}
+
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* FOOTER */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 380px;
+}
+.footer {
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background: #f2f2f2;
+
+}
+
+.header{
+	
+	width:100%;
+	height:100%;
+	background: #f2f2f2;
+
+}
+
+.div-content {
+	height:50px;
+	display:block;
+	width:100%;
+}
+
+.separador-footer{
+	display:block;
+	width:100%;
+	height:5vh;
+}
+
+.pag-proyecto {
+	display:none;
+}
+
+#slideshow {
+	display:none;
+}

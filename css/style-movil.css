@@ -1,0 +1,51 @@
+@media(max-width:576px){
+	.proyecto-anterior {
+	display:block;
+	text-align:left;
+
+	margin:15px;
+	font-size:9px;
+	}
+	.siguiente-proyecto {
+	display:block;
+	text-align:left;
+	margin:15px;
+	font-size:9px;
+	}
+
+	.proyectos-flechas a{
+		font-size:10px;
+	}
+
+	.menu-btn {
+		text-align:center;
+		margin:0 auto;
+	}
+	.cont{
+		border-right:none;/*quita el borde del costado a los iconos de contacto */
+	}
+	 #overlay-inicio svg {
+ 	width:75%;
+ 	height:75%;
+ 	}
+
+ 	.cliente-imagen img {
+ 		width:50%;
+
+
+ 	}
+ 	.logo {
+ 		margin:0 auto;
+ 	}
+
+ 	.quienes-somos p, .quienes-somos h1, .quienes-somos h5  {
+ 		padding:15px;
+ 	}
+
+ 	.divisor-footer {
+ 		margin-top:-15px;
+ 	}
+
+
+
+}
