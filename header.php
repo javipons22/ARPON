@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Arpon Estructuras S.R.L<?php wp_title(); ?></title>
+<title>Arpon Estructuras S.R.L <?php wp_title(); ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta content="A través de éste medio deseamos proveerles la información que usted necesita para que conozca nuestros servicios, modalidades de trabajos y los proyectos más importantes." name="Description">
 <?php wp_head(); ?>
@@ -39,7 +39,7 @@
             <i class="telefono fa fa-phone fa-3x "></i>
             <div class="uno">
                 <p>(03543) 442745</p>
-                <p>cpons@arponestructuras.com.ar</p>
+                <p>ponsc@arponestructuras.com.ar</p>
             </div>
           </div>
 

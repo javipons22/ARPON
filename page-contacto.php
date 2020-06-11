@@ -37,7 +37,7 @@ echo $mailResult;
 	<i class="fa  fa-fax  fa-2x"></i><span>(03543) 442745</span>
 	</div>
 	<div>
-	<i class="fa  fa-envelope  fa-2x"></i><span>info@arponestructuras.com.ar</span>
+	<i class="fa  fa-envelope  fa-2x"></i><span>ponsc@arponestructuras.com.ar</span>
 	</div>
 	</br>
 	<div>
@@ -45,22 +45,6 @@ echo $mailResult;
 	</div>
 
 
-</div>
-<div class="col-md-8 formulario">
-<h1>Otras consultas</h1>
-<form action="" method="post">
-<div class="row justify-content-between">
-<div class="col-sm-4">
-       <span class=""><input type="text" name="nombre" value="" size="40" class="" aria-required="true" aria-invalid="false" placeholder="Nombre y Apellido" /></span><br />
-       <span class=""><input type="email" name="email" value="" size="40" class="" aria-required="true" aria-invalid="false" placeholder="E-mail" /></span><br />
-       <span class=""><input type="text" name="asunto" value="" size="40" class="" aria-invalid="false" placeholder="Titulo del mensaje" /></span>
-    </div>
-<div class="col-sm-8">
-      <span class=""><textarea name="mensaje" cols="40" rows="10" class="" aria-invalid="false" placeholder="Mensaje"></textarea></span><br />
-      <input type="submit" name="submit" value="ENVIAR CONSULTA" class="" />
-    </div>
-</div>
-</form>
 </div>
 </div>
 </div>
